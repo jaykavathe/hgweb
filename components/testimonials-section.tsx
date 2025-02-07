@@ -6,7 +6,7 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Their innovative approach to patent law has transformed how we protect our intellectual property. The team's expertise and attention to detail are unmatched in the industry.",
+    quote: "Their innovative approach to patent law has transformed how we protect our intellectual property. The team&apos;s expertise and attention to detail are unmatched in the industry.",
     author: {
       name: "Emily Rodriguez",
       role: "Head of Innovation",
@@ -15,7 +15,7 @@ const testimonials = [
     }
   },
   {
-    quote: "Working with their team has been a game-changer for our IP strategy. They don't just file patents; they understand our technology and help us build a comprehensive protection framework.",
+    quote: "Working with their team has been a game-changer for our IP strategy. They don&apos;t just file patents; they understand our technology and help us build a comprehensive protection framework.",
     author: {
       name: "David Kim",
       role: "CTO",
@@ -24,7 +24,7 @@ const testimonials = [
     }
   },
   {
-    quote: "The level of expertise and professionalism is exceptional. They've helped us secure crucial patents that have become cornerstone assets for our company.",
+    quote: "The level of expertise and professionalism is exceptional. They&apos;ve helped us secure crucial patents that have become cornerstone assets for our company.",
     author: {
       name: "Rachel Chen",
       role: "VP of Research",

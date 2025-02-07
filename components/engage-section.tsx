@@ -50,7 +50,7 @@ const EngageSection = () => {
                 </h3>
               </div>
               <p className="text-white/90 leading-relaxed text-lg">
-                Our company offers health insurance, retirement plans, flexible working hours, professional growth opportunities, and wellness programs to support and enhance our employees' personal and professional lives.
+                Our company offers health insurance, retirement plans, flexible working hours, professional growth opportunities, and wellness programs to support and enhance our employees&apos; personal and professional lives.
               </p>
               <a href="/strategies" 
                 className="inline-flex items-center gap-2 text-white text-lg group hover:text-white/90 transition-colors"
@@ -87,7 +87,7 @@ const EngageSection = () => {
                 </h3>
               </div>
               <p className="text-white/90 leading-relaxed text-lg">
-                Discover our company's benefits: comprehensive health insurance, secure retirement plans, flexible schedules, opportunities for professional development, and wellness programs to enrich our employees' work-life balance and career growth.
+                Discover our company&apos;s benefits: comprehensive health insurance, secure retirement plans, flexible schedules, opportunities for professional development, and wellness programs to enrich our employees&apos; work-life balance and career growth.
               </p>
               <a href="/strategies" 
                 className="inline-flex items-center gap-2 text-white text-lg group hover:text-white/90 transition-colors"
