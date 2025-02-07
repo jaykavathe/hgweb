@@ -24,22 +24,23 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[800px]">
+      <section className="relative h-[800px] md:h-[800px]">
         <Image
           src="/hero.png"
           alt="Patent Drafting Hero"
           fill
           className="object-cover brightness-[0.3]"
           priority
+          sizes="100vw"
         />
-        <div className="absolute inset-0 flex flex-col justify-center max-w-[80%] mx-auto px-4">
+        <div className="absolute inset-0 flex flex-col justify-center max-w-[90%] md:max-w-[80%] mx-auto px-4">
           {/* Hero Content */}
           <div className="max-w-4xl">
             <motion.h1 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-7xl font-bold mb-6 text-white"
+              className="text-4xl md:text-7xl font-bold mb-6 text-white"
             >
               Patent
               <span className="bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text"> Drafting </span>
@@ -50,7 +51,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-xl text-white/80 leading-relaxed mb-12 max-w-2xl"
+              className="text-lg md:text-xl text-white/80 leading-relaxed mb-8 md:mb-12 max-w-2xl"
             >
               Empowering innovation through strategic patent protection. Our expert team crafts comprehensive patent applications that secure and maximize the value of your intellectual property.
             </motion.p>
@@ -62,7 +63,7 @@ export default function Home() {
             >
               <Button 
                 size="lg"
-                className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-6 h-auto"
+                className="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white text-base md:text-lg px-6 md:px-8 py-4 md:py-6 h-auto"
               >
                 Get Started
                 <ArrowRight className="w-5 h-5 ml-2" />
@@ -72,16 +73,16 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="max-w-[80%] mx-auto px-4">
+      <div className="max-w-[90%] md:max-w-[80%] mx-auto px-4">
         {/* Trust Message */}
-        <section className="py-16 text-center">
-          <p className="text-gray-700 text-lg max-w-4xl mx-auto">
+        <section className="py-12 md:py-16 text-center">
+          <p className="text-base md:text-lg text-gray-700 max-w-4xl mx-auto">
             Trusted by several Fortune 500 companies, Hourglass has been creating high-value patent portfolios - for both corporations as well as start-ups. With over 2000 patent applications prepared and prosecuted till date, and a grant rate of more than 90%, our clients have benefited in multiple aspects:
           </p>
         </section>
 
         {/* Portfolio Cards */}
-        <section className="grid grid-cols-5 gap-6 mb-16">
+        <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 mb-12 md:mb-16">
           {[
             { title: "Build Moat\nAround Products", icon: HomeIcon, image: "/portfolio/01_moat.webp" },
             { title: "Create Defense\nArsenal", icon: ShieldIcon, image: "/portfolio/02_cda.webp" },
