@@ -37,7 +37,7 @@ const FoundersSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-gray-400 text-lg"
+            className="text-xl font-medium text-gray-400"
           >
             Combining decades of expertise in intellectual property law and innovation
           </motion.p>

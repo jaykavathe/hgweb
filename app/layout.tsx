@@ -17,24 +17,28 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="fixed w-full z-50 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+        <header className="fixed w-full z-50 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 shadow-sm">
           <div className="max-w-[80%] mx-auto px-4">
-            <nav className="flex justify-between items-center h-16">
-              <div className="flex items-center gap-8">
-                <a href="/" className="font-bold text-xl">Hourglass</a>
-                <div className="flex gap-6">
-                  <a href="/about-us" className="text-sm hover:text-blue-600">About Us</a>
-                  <a href="/services" className="text-sm hover:text-blue-600">Services</a>
-                  <a href="/solution" className="text-sm hover:text-blue-600">Solution</a>
-                  <a href="/knowledge" className="text-sm hover:text-blue-600">Knowledge</a>
-                  <a href="/testimonials" className="text-sm hover:text-blue-600">Testimonials</a>
+            <nav className="flex justify-between items-center h-20">
+              <div className="flex items-center gap-12">
+                <a href="/" className="font-bold text-2xl">Hourglass</a>
+                <div className="flex gap-8">
+                  <a href="/about-us" className="text-base font-medium hover:text-blue-600 transition-colors">About Us</a>
+                  <a href="/services" className="text-base font-medium hover:text-blue-600 transition-colors">Services</a>
+                  <a href="/solution" className="text-base font-medium hover:text-blue-600 transition-colors">Solution</a>
+                  <a href="/knowledge" className="text-base font-medium hover:text-blue-600 transition-colors">Knowledge</a>
+                  <a href="/testimonials" className="text-base font-medium hover:text-blue-600 transition-colors">Testimonials</a>
                 </div>
               </div>
-              <div className="flex gap-4">
-                <a href="/client-login" className="text-sm px-4 py-2 border border-gray-200 rounded hover:bg-gray-50">
+              <div className="flex gap-6">
+                <a href="/client-login" 
+                  className="text-base px-6 py-2.5 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors font-medium"
+                >
                   Client Login
                 </a>
-                <a href="/contact-us" className="text-sm px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+                <a href="/contact-us" 
+                  className="text-base px-6 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                >
                   Contact Us
                 </a>
               </div>

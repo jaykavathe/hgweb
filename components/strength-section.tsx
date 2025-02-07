@@ -28,10 +28,18 @@ const StrengthSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl font-bold mb-20 text-gray-900"
+          className="text-4xl font-bold mb-4 text-gray-900"
         >
           What Makes Our Process Unique Yet Efficient?
         </motion.h2>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-xl font-medium text-gray-600 mb-20"
+        >
+          Discover how our unique approach delivers exceptional results
+        </motion.p>
 
         <div className="relative">
           {/* Vertical Line */}

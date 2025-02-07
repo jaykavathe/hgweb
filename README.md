@@ -1,20 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hourglass - Patent Drafting Services Website
+
+A modern, responsive website for Hourglass patent drafting services built with Next.js, React, TypeScript, and Tailwind CSS.
+
+## Tech Stack
+
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Shadcn/ui
+
+## Features
+
+- Modern UI/UX design
+- Responsive layout
+- Animated components
+- Interactive sections
+- SEO optimized
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/jaykavathe/hgweb.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Run the development server
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

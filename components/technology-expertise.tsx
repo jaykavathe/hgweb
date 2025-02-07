@@ -85,10 +85,18 @@ const TechnologyExpertise = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl font-bold mb-16 text-gray-900"
+          className="text-4xl font-bold mb-4 text-gray-900"
         >
           Our Varied Technology Expertise
         </motion.h2>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-xl font-medium text-gray-600 mb-16"
+        >
+          Expertise across multiple technology domains with proven success
+        </motion.p>
 
         <Accordion type="single" collapsible className="space-y-8">
           {technologies.map((tech, index) => (
