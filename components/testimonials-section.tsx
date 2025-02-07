@@ -105,7 +105,7 @@ const TestimonialsSection = () => {
                   className="mb-8"
                 >
                   <p className="text-gray-700 leading-relaxed text-lg italic font-serif">
-                    "{testimonial.quote}"
+                    &quot;{testimonial.quote}&quot;
                   </p>
                 </motion.div>
 
